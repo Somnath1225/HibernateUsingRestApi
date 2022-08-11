@@ -1,5 +1,11 @@
 package com.BikkadIT.HibernateUsingRestfull.Service;
 
-public interface ServiceI {
+import com.BikkadIT.HibernateUsingRestfull.Model.Customer;
 
-}
+public interface ServiceI {
+	
+	public Customer saveData(Customer customer);
+		
+		
+	}
+
